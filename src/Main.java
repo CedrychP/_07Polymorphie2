@@ -2,16 +2,17 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
   public static void main(String[] args) {
-    // Press Alt+Eingabe with your caret at the highlighted text to see how
-    // IntelliJ IDEA suggests fixing it.
-    System.out.printf("Hello and welcome!");
 
-    // Press Umschalt+F10 or click the green arrow button in the gutter to run the code.
-    for (int i = 1; i <= 5; i++) {
+    Fisch gg0 = new Fisch();
+    Fisch gg1 = new UrAltGoldFisch();
+    Fisch gg2 = new AltGoldFisch();
+    Fisch gg3 = new Goldfisch();
+    Fisch gg4 = new Junggoldfisch();
 
-      // Press Umschalt+F9 to start debugging your code. We have set one breakpoint
-      // for you, but you can always add more by pressing Strg+F8.
-      System.out.println("i = " + i);
-    }
+    gg0.blubber();
+    gg1.blubber();
+    gg2.blubber();
+    gg3.blubber();
+    gg4.blubber();
   }
 }
